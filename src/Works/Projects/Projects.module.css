@@ -1,0 +1,18 @@
+.project {
+    width: 250px;
+    height: 50vh;
+    background-color: #61dafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    background-color: grey;
+    width: 40vh;
+    height: 40vh;
+}
+.description {
+    align-items: center;
+
+}
