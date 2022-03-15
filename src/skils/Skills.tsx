@@ -7,8 +7,8 @@ import {Skill} from "./skill/Skill";
 const Skills = () => {
     return (
         <div className={s.skillBlock}>
-            <div className={`${s.skillContainer}${b.container}`}>
-                <h2 className={s.title}>SKILLSSS</h2>
+            <div className= {`${b.container} ${s.skillContainer}`} >
+                <h2 className={s.title}>Skills</h2>
                 <div className={s.skills}>
                 <Skill title={'JS'} description={'Lorem ipsum dolor sit amet'} />
                 <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>

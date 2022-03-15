@@ -1,18 +1,24 @@
 .worksBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(162, 139, 139, 0.51);
-    border: 1px solid ;
-}
-.workContainer {
-    flex-direction: row;
-    justify-content: center;
-}
-.works {
+    border: 1px solid;
 
-    border: 1px solid ;
-    /*width: 100%;*/
+}
+
+.workContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: yellow;
+}
+
+.works {
+    border: 1px solid;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }

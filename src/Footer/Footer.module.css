@@ -1,0 +1,23 @@
+.footerBlock {
+    min-height: 100vh;
+    background-color: #4bff2f;
+    border: 1px solid ;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.footerSocialContainer {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+}

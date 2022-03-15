@@ -6,11 +6,11 @@ import Projects from "./Projects/Projects";
 const Works = () => {
     return (
         <div className={w.worksBlock}>
-            <div className={`${w.workContainer}${b.container}`}>
+            <div className={`${b.container} ${w.workContainer}`}>
                 <h2 className={w.title}>My works</h2>
                 <div className={w.works}>
-                    <Projects title={'picture1'}/>
-                    <Projects title={'picture2'}/>
+                    <Projects />
+                    <Projects />
                 </div>
             </div>
         </div>
