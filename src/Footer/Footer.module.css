@@ -1,7 +1,6 @@
 .footerBlock {
     min-height: 100vh;
     background-color: #4bff2f;
-    border: 1px solid ;
 }
 .footerContainer {
     display: flex;
@@ -9,15 +8,25 @@
     justify-content: flex-start;
     width: 100%;
 }
-.footerSocialContainer {
-    width: 280px;
+
+.iconContainer {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
     border: 1px solid;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.title {
+    background-color: #3036fd;
 }
 .icon {
+    margin: 20px;
     height: 60px;
     width: 60px;
-    background-color: black;
+    background-color: #7f9dff;
 }

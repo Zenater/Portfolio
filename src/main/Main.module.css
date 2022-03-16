@@ -2,12 +2,14 @@
     height: 100vh;
     background-color: #fd85fd;
 }
+
 .text {
     width: 300px;
-background-color: #f8e3e3;
+    background-color: #f8e3e3;
 }
+
 .photo {
     width: 300px;
     height: 400px;
-    background-color:#f8e3e3 ;
+    background-color: #f8e3e3;
 }
