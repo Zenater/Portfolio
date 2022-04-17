@@ -6,13 +6,13 @@ const Contacts = () => {
     return (
         <div className={c.contactsBlock}>
             <div className= {`${b.container} ${c.contactsContainer}`} >                <div>
-                    <form action="" className={c.formCont}>
+                    <form className={c.formCont}>
                         <h2>Contacts</h2>
                         <input type="text"/>
                         <input type="text"/>
                         <textarea>
                     </textarea>
-                        <button>Отправить</button>
+                        <button type={"submit"}>Отправить</button>
                     </form>
                 </div>
             </div>

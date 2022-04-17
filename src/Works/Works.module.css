@@ -12,7 +12,18 @@
 }
 
 .title {
-    background-color: yellow;
+}
+
+.title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    margin: 0px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
 }
 
 .works {
@@ -21,4 +32,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1129px) {
+    .description {
+        justify-content: space-between;
+    }
 }

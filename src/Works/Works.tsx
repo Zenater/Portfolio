@@ -7,7 +7,10 @@ const Works = () => {
     return (
         <div className={w.worksBlock}>
             <div className={`${b.container} ${w.workContainer}`}>
-                <h2 className={w.title}>My works</h2>
+                <div className={w.title}>
+                    <h2>My works</h2>
+                </div>
+
                 <div className={w.works}>
                     <Projects />
                     <Projects />

@@ -17,8 +17,9 @@
 }
 .button {
     width: 150px;
-    height: 40px;}
+    height: 40px;
+}
 .description {
-    align-items: center;
+align-items: center;  /* my*/
 
 }
