@@ -1,5 +1,5 @@
 import React from 'react';
-import w from './Works.module.css'
+import w from './Works.module.scss'
 import b from "../common/styles/Container.module.css";
 import Projects from "./Projects/Projects";
 import Title from "../common/components/title/Title";
@@ -8,7 +8,6 @@ import socNEtw from'./../assets/image/пример.png'
 
 
 const Works = () => {
-
     const social = {
         backgroundImage: `url(${todoImg})`
     }

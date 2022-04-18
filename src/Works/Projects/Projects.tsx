@@ -1,5 +1,5 @@
 import React from 'react';
-import p from "../../Works/Projects/Projects.module.css";
+import p from "./Projects.module.scss";
 
 type TitleType = {
     title:string
