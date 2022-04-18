@@ -1,19 +1,22 @@
 import React from 'react';
 import p from "../../Works/Projects/Projects.module.css";
 
-const Projects = () => {
+type TitleType = {
+    title:string
+    style: any
+}
+
+const Projects = (props:TitleType) => {
 
     return (
         <div className={p.project}>
-            <div className={p.imgContainer}>
-                <img src="" alt="picture"/>
-                <button className={p.button}>Смотреть</button>
+            <div className={p.imgContainer} style={props.style}>
+                <a className={p.button}>Смотреть</a>
             </div>
-
             <div>
-             <span className={p.description}>
-                  <p>Название проекта</p>
-                 <p>Краткое описание</p>
+             <span className={p.projectInfo}>
+                  <h3 className={p.projectTitle}>{props.title}</h3>
+                 <span className={p.description2}>description</span>
              </span>
             </div>
 
