@@ -1,6 +1,10 @@
+@import "./src/common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+
 .worksBlock {
   min-height: 100vh;
-  background-color: #252527;
+  background-color: $bgColor;
   border: 1px solid;
     .workContainer {
     align-items: center;

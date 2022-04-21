@@ -1,5 +1,5 @@
 import React from 'react';
-import t from './Title.module.css'
+import t from './Title.module.scss'
 
 type TitleType = {
     text:string
