@@ -1,13 +1,14 @@
 import React from 'react';
 import c from './Contacts.module.css'
 import b from './../common/styles/Container.module.css';
+import Title from "../common/components/title/Title";
 
 const Contacts = () => {
     return (
         <div className={c.contactsBlock}>
             <div className= {`${b.container} ${c.contactsContainer}`} >                <div>
                     <form className={c.formCont}>
-                        <h2>Contacts</h2>
+                        <Title text={'Projects'}/>
                         <input type="text"/>
                         <input type="text"/>
                         <textarea>

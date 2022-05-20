@@ -1,6 +1,8 @@
+
 .skillBlock {
     min-height: 100vh;
-    background-color: greenyellow;
+    background-color: #151312;
+
 }
 .skillContainer {
     align-items: center;
@@ -8,7 +10,7 @@
     justify-content: flex-start;
 }
 .title {
-    background-color: #3036fd;
+    color: #e7f80b;
     padding: 0;
 }
 .skills {
