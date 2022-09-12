@@ -1,0 +1,51 @@
+@import "../common/styles/sass/variables";
+
+.linkBox {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 48%;
+  height: 50%;
+  background-color: $bgSecondary;
+  $bgColor: #1f1f30; //впомогательный
+
+}
+
+.borderBtmLeft {
+  border-bottom: 10px solid $bgPrimary;
+  border-left: 10px solid $bgPrimary;
+}
+
+.borderTopRight {
+  border-top: 10px solid $bgPrimary;
+  border-right: 10px solid $bgPrimary;
+}
+
+.borderTopLeft {
+  border-top: 10px solid $bgPrimary;
+  border-left: 10px solid $bgPrimary;
+}
+
+.white {
+  color: $primaryText;
+}
+
+.accent {
+  color: $accentText;
+}
+
+
+@media (max-width: 600px) {
+  .linkBox {
+    width: 100%;
+    height: 25%;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,65 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.rightBox {
+  position: absolute;
+  overflow: hidden;
+  width: 65%;
+  left: 33.3333333333% !important;
+  padding: 0;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-top: 24px;
+  height: calc(100vh - 48px);
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+
+.linkBack {
+  position: absolute;
+  top: 32px;
+  right: 48px;
+  width: 30px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 900px) {
+  .rightBox {
+    width: 100%;
+    left: 0% !important;
+    position: relative;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .linkBack {
+    right: 20px;
+    top: 10px;
+  }
+}
+.particles {
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+}
