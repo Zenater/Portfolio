@@ -48,8 +48,14 @@ export const ParticlesContainer = () => {
     };
 
 
-    return <div className={s.particles}>
-        <Particles options={options} init={customInit}/>
-    </div>
+    return (
+        <div className={s.particles}>
+
+            <
+                // @ts-ignore
+                Particles
+                options={options} init={customInit}/>
+        </div>
+    )
 }
 
