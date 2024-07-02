@@ -12,7 +12,7 @@ import react from './image/react1.svg'
 import story from './image/storybook.svg'
 import reduxToolkit from './image/reduxToolkit.svg'
 import restApi from './image/restAPI.svg'
-import formik from './image/formik.svg'
+import vue from './image/vue.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 type SkillsType = {
@@ -33,7 +33,7 @@ const skills: Array<SkillsType> = [
 	{id: v1(), skill: 'TDD - Jest', icon: jest},
 	{id: v1(), skill: 'Storybook', icon: story},
 	{id: v1(), skill: 'Github', icon: git},
-	{id: v1(), skill: 'Formik', icon: formik},
+	{id: v1(), skill: 'Vue', icon: vue},
 ]
 
 export const Skills = () => {
@@ -56,7 +56,6 @@ export const Skills = () => {
 			<ul className={s.skillList}>
 				{skillsList}
 			</ul>
-
 		</div>
 	)
 }

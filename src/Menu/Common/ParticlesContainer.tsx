@@ -50,7 +50,6 @@ export const ParticlesContainer = () => {
 
     return (
         <div className={s.particles}>
-
             <
                 // @ts-ignore
                 Particles
