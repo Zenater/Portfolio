@@ -31,7 +31,7 @@ export const Experience = () => {
 	const experienceList = experience.map(exp => {
 		return <li key={exp.id} className={s.expItem}>
 			<p className={s.expHeading}>{exp.title}</p>
-			<a className={s.expLink} href={exp.company} target="_blank">{exp.description}</a>
+			<a className={s.expLink} href={exp.company} rel='noreferrer' target="_blank">{exp.description}</a>
 		</li>
 	})
 

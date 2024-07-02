@@ -13,7 +13,6 @@ import story from './image/storybook.svg'
 import reduxToolkit from './image/reduxToolkit.svg'
 import restApi from './image/restAPI.svg'
 import vue from './image/vue.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 type SkillsType = {
 	id: string
@@ -41,8 +40,7 @@ export const Skills = () => {
 	const skillsList = skills.map(skill => {
 		return <li key={skill.id} className={s.skillItem}>
 				<span className={s.aboutIcon}>
-					<img src={skill.icon} className={s.aboutIcon} alt={''}/>
-					<FontAwesomeIcon icon={skill.icon} style={{color:"red"}}/>
+					<img src={skill.icon} className={s.aboutIcon} alt={skill.skill}/>
 					</span>
 				<p className={s.skillTitle}>{skill.skill}</p>
 			</li>

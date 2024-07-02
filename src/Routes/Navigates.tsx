@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import {AboutMe} from "../Menu/AboutMe/AboutMe";
 import {Portfolio} from "../Menu/Portfolio/Portfolio";
 import {Contacts} from "../Menu/Contacts/Contacts";
+import {Menu} from "../Menu/Menu";
 
 export const PATH = {
     ABOUT: '/about',
@@ -17,6 +18,7 @@ export const Navigates = () => {
                 <Route path={PATH.ABOUT} element={<AboutMe/>}/>
                 <Route path={PATH.PORTFOLIO} element={<Portfolio/>}/>
                 <Route path={PATH.CONTACTS} element={<Contacts/>}/>
+                <Route path={"/"} element={<Menu/>}/>
             </Routes>
         </div>
     );

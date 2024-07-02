@@ -69,7 +69,7 @@ export const ContactForm: FC<ContactFormPropsType> = ({setStatusResult, showModa
 
         if (!re) {
             setEmailError('Invalid email address')
-            if (email.trim() == '') {
+            if (email.trim() === '') {
                 setEmailError('Required')
             }
         }else setEmailError('')
@@ -80,7 +80,7 @@ export const ContactForm: FC<ContactFormPropsType> = ({setStatusResult, showModa
         setMessage(message)
         if (message.length < 6) {
             setMessageError('Why is the message so short?')
-            if (message.trim() == '') {
+            if (message.trim() === '') {
                 setMessageError('Required')
             }
         } else {
@@ -91,7 +91,7 @@ export const ContactForm: FC<ContactFormPropsType> = ({setStatusResult, showModa
     const namedHandler = (e: ChangeEvent<HTMLInputElement>) => {
         const name = e.currentTarget.value
         setName(name)
-        if (name.trim() == '') {
+        if (name.trim() === '') {
             setNameError('Required')
         } else {
             setNameError('')

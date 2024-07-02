@@ -29,7 +29,7 @@ export const ContactBlock: FC<ContactBlockPropsType> = ({setStatusResult, showMo
 				<FontAwesomeIcon icon={el.icon as IconProp}/>
 			</span>
             {el.text === 'Go to github' ?
-                <a className={s.contactText} target='_blank' href='https://github.com/Zenater'>{el.text}</a> :
+                <a className={s.contactText} rel='noreferrer' target='_blank' href='https://github.com/Zenater'>{el.text}</a> :
                 <span className={s.contactText}>{el.text}</span>
             }
         </li>

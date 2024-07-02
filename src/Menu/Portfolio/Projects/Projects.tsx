@@ -22,19 +22,19 @@ export const Projects= () => {
 
 		return <div className={s.tiles} key={project.id}>
 				<div className={s.tile} >
-					<img src={project.image} className={s.projectImage} alt={'image project'}/>
+					<img src={project.image} className={s.projectImage} alt={'project'}/>
 					<div className={s.details}>
 						<span className={s.title}>{project.heading}</span>
 						<span className={s.info}>
 							<FontAwesomeIcon icon={faEyeIcon}
 								className={s.icon} />
-							<a href={project.demo} className={s.link} target="_blank">Demo</a>
+							<a href={project.demo} className={s.link} rel='noreferrer' target="_blank">Demo</a>
 						</span>
 						<span className={s.info}>
 							<FontAwesomeIcon
 								icon={faGithubIcon}
 								className={s.icon}/>
-							<a href={project.github} className={s.link} target="_blank">Github</a></span>
+							<a href={project.github} rel='noreferrer' className={s.link} target="_blank">Github</a></span>
 					</div>
 
 				</div>

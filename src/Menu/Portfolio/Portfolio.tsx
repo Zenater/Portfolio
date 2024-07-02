@@ -21,7 +21,7 @@ export const Portfolio = () => {
 				</div>
 			</div>
 			<NavLink to={'/'}  className={app.linkBack}>
-				<img className={app.aboutBtnClose} src={close}/>
+				<img alt={'close'} className={app.aboutBtnClose} src={close}/>
 			</NavLink>
 		 </div>
 	);
