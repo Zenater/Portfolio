@@ -9,7 +9,7 @@ type TitleProps = {
     icon: any
 }
 
-export const Title: FC<TitleProps> = ({title, accentTitle, icon}) => {
+export const Title: FC<TitleProps> = React.memo(({ title, accentTitle, icon }) => {
     return (
         <>
             <h2 className={s.aboutTitle}>
@@ -23,4 +23,4 @@ export const Title: FC<TitleProps> = ({title, accentTitle, icon}) => {
             </div>
         </>
     )
-}
+})

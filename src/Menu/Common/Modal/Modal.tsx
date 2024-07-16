@@ -7,7 +7,7 @@ type ModalPropsType = {
     children: any
 }
 
-export const Modal: FC<ModalPropsType> = ({children, active}) => {
+export const Modal: FC<ModalPropsType> = React.memo(({children, active}) => {
 
     return (
         <>
@@ -19,4 +19,4 @@ export const Modal: FC<ModalPropsType> = ({children, active}) => {
             }
         </>
     )
-}
+})

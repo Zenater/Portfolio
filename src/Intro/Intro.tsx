@@ -2,7 +2,6 @@ import React from 'react';
 import s from './Intro.module.scss'
 import {TypewriterEffect} from "./TypewriterEffect/TypewriterEffect";
 import {Zoom} from "react-awesome-reveal";
-// npm run deploy
 
 export const Intro = () => {
     return (

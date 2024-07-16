@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Projects.module.scss';
-import todo from './projectCover/todo.png'
+import hotelsSearch from './projectCover/hotelsSearch.png'
 import cardsTraining from './projectCover/cardsTraining.png'
 import {v1} from 'uuid';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
@@ -9,8 +9,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 const project = [
-	{id: v1(), heading: 'Todolist', demo: 'https://zenater.github.io/Todolist_Vivo/', github: 'https://github.com/Zenater/Todolist_Vivo', image: todo},
-	// {id: v1(), heading: 'Social NetWork', demo: '', github: 'https://github.com/Zenater/social-network-vivo-', image: social},
+	// {id: v1(), heading: 'Todolist', demo: 'https://zenater.github.io/Todolist_Vivo/', github: 'https://github.com/Zenater/Todolist_Vivo', image: todo},
+	{id: v1(), heading: 'Hotels Search', demo: 'https://zenater.github.io/liis_test_task/#/', github: 'https://github.com/Zenater/liis_test_task', image: hotelsSearch},
 	{id: v1(), heading: 'Cards Training', demo: 'https://zenater.github.io/cards-training/', github: 'https://github.com/Zenater/cards-training', image: cardsTraining},
 ]
 
